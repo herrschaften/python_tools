@@ -2,11 +2,11 @@
 // Copy and paste this into Shadertoy
 
 // === PARAMETERS ===
-#define PIXEL_SIZE 32.0
+#define PIXEL_SIZE 64.0
 #define CLOUD_CENTER vec3(0.0, 0.0, -3.0)
 #define NUM_SPHERES 20
-#define ANIMATION_SPEED 0.03
-#define SKY_COLOR vec3(0.4, 0.7, 1.0)
+#define ANIMATION_SPEED 1.03
+#define SKY_COLOR vec3(1.0, 1.0, 1.0)
 // ==================
 
 float noise3D(vec3 p) {

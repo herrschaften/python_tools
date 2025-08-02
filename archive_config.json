@@ -1,0 +1,10 @@
+{
+  "included_chats": [],
+  "excluded_chats": [],
+  "include_private_chats": true,
+  "include_groups": true,
+  "include_channels": false,
+  "include_bots": false,
+  "date_filter": null,
+  "last_updated": "2025-08-01T20:14:57.396530"
+}

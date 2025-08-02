@@ -470,7 +470,7 @@ class IndexedColorConverter(QMainWindow):
         self.downscale_factor_spin.setRange(0.0001, 100.0)
         self.downscale_factor_spin.setValue(1.0)
         self.downscale_factor_spin.setSingleStep(0.0001)
-        self.downscale_factor_spin.setDecimals(1)
+        self.downscale_factor_spin.setDecimals(5)
         self.downscale_factor_spin.setSpecialValueText("No Resize")
         settings_layout.addWidget(self.downscale_factor_spin, 1, 1)
         
@@ -483,10 +483,10 @@ class IndexedColorConverter(QMainWindow):
         # Upscale factor
         settings_layout.addWidget(QLabel("Upscale Factor:"), 3, 0)
         self.upscale_factor_spin = QDoubleSpinBox()
-        self.upscale_factor_spin.setRange(0.00, 100.0)
+        self.upscale_factor_spin.setRange(0.000, 100.0)
         self.upscale_factor_spin.setValue(2.0)
-        self.upscale_factor_spin.setSingleStep(0.5)
-        self.upscale_factor_spin.setDecimals(1)
+        self.upscale_factor_spin.setSingleStep(0.01)
+        self.upscale_factor_spin.setDecimals(5)
         self.upscale_factor_spin.setSpecialValueText("No Upscale")
         settings_layout.addWidget(self.upscale_factor_spin, 3, 1)
         
